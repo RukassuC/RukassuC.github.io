@@ -1,0 +1,13 @@
+/*
+  
+*/
+.menu {  /*fazendo um menu pra ficar do lado direito*/
+  border: 10px solid black; 
+  width: 30%;
+  padding: 1%;
+}  
+
+.box {
+  padding: 1%;
+}
+
