@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--
-        Os metadados abaixo são importantes para as SEO, portanto use-as.
+        Os metadados abaixo são importantes para as SEO.
         Open Graph Data é um protocolo de metadata para o Facebook.
         Existem muitos outros.
      -->
@@ -29,14 +29,33 @@
     <script src="exemple-js.js" defer></script>
     <link href="style2.css" rel="stylesheet">
     -->
-    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
     <title>Anotações</title>
 </head>
 <body>
-    <header></header>
-    <!--barra de navegação -->
-    <div id="teste">
-        <nav class="menu">
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <!--a barra de navegação aqui-->
+    <nav>
+        
+    </nav>
+    <!--fim barra de navegaçao -->
+
+    <!--barra de busca -->
+    <form>
+        <input type="search" name="q" placeholder="Buscar">
+        <input type="submit" value="Go!">
+    </form>
+    <!--fim barra de busca-->
+
+    <!--parte principal-->
+    <main>
+
+        <!--side bar-->
+        <aside class="menu">
             <div class="box">
                 <h1>Anotações</h1>
                 <ol>
@@ -92,18 +111,19 @@
                             -componente
                     </li>
                     <li>DNS</li>
-                    <!--download link-->
+                    
                     <li>
                         <a href="favicon.ico" download="favicon.ico">icone</a>
                     </li>
                 </ol>
 
             </div>
-        </nav>
-        
-        <div> <!--main content--> </div>
-        
-    </div>
+        </aside>
+        <!--fim da side bar-->
+
+    </main>
+    <!--fim do conteúdo principal-->
+
     <footer>
             <!-- AddToAny BEGIN -->
         <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
@@ -111,7 +131,9 @@
         <a class="a2a_button_whatsapp"></a>
         </div>
         <script async src="https://static.addtoany.com/menu/page.js"></script>
-        <!-- AddToAny END -->
+            <!-- AddToAny END -->
     </footer>
+
+
 </body>
 </html>
