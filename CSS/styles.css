@@ -10,5 +10,6 @@
 
 .box {
   padding: 1%;
+  overflow: auto; 
 }
 
