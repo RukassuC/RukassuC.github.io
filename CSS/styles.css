@@ -1,15 +1,15 @@
-/*
+body {
+  font-family: arial,x-locale-body,sans-serif;
+  letter-spacing: -.0027777778rem;
+  font-size: 100%;
+  line-height: 1.75;
+}
+.menu {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkslategray;
+  background: beige;
+  width: max-content;
+  padding: 1em;
   
-*/
-.menu {  /*fazendo um menu pra ficar do lado direito*/
-  border: 10px solid black; 
-  width: 30%;
-  padding: 1%;
-  overflow: auto; 
-}  
-
-.box {
-  padding: 1%;
-  overflow: auto; 
 }
 
