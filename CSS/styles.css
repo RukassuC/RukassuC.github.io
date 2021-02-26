@@ -1,15 +1,32 @@
+html {
+  box-sizing: border-box; /*todo documento com o box model alternativo*/
+}
+*, *::before, *::after { /*todos os elementos (classes etc.) herdam o box model alternativo */
+  box-sizing: inherit;
+}
+
 body {
   font-family: arial,x-locale-body,sans-serif;
   letter-spacing: -.0027777778rem;
   font-size: 100%;
   line-height: 1.75;
+
 }
 .menu {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: darkslategray;
   background: beige;
-  width: max-content;
+  width: max-content; /*width e height altera área do conteúdo*/
   padding: 1em;
-  
+  /*margin: ;*/
+  border: 12px solid;
+  border-radius: 12% 20%; /*arredonda as pontas das borda*/
+  display: inline-block;
 }
-
+.conteiner {
+  display: inline-block; /*display inline com características block do padding e margin*/
+  width: max-content;
+}
+main {
+  display: inline-flex; /* cria um layout flex interno?*/
+}
