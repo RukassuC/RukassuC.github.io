@@ -19,14 +19,32 @@ body {
   width: max-content; /*width e height altera área do conteúdo*/
   padding: 1em;
   /*margin: ;*/
-  border: 12px solid;
-  border-radius: 12% 20%; /*arredonda as pontas das borda*/
   display: inline-block;
+  flex: 2;
 }
 .conteiner {
   display: inline-block; /*display inline com características block do padding e margin*/
-  width: max-content;
+  width: 100%;
+  flex: 4;
+  margin: 2%;
 }
 main {
-  display: inline-flex; /* cria um layout flex interno?*/
+  display: flex; /* cria um layout flex interno?*/
+}
+.img-header {
+  display: block;
+  height: 100px;
+  padding-top: 20px;
+}   
+
+.header-conteiner {
+  display: flex;
+}
+h1 {
+  text-align: center;
+  flex: 2;
+}
+footer {
+  padding: 2%;
+  
 }
