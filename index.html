@@ -29,11 +29,12 @@
     <script src="exemple-js.js" defer></script>
     <link href="style2.css" rel="stylesheet">
     -->
-    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
     <title>Anotações</title>
 </head>
-    
 <body>
+
+    <body>
 
         <header class="header-conteiner">
             <h1>Header</h1>
@@ -43,8 +44,13 @@
         </header>
     
         <!--a barra de navegação aqui-->
-        <nav>
-            
+        <nav class="nav-bar">
+            <span>altere a cor do fundo: </span>
+            <div class="background-button">
+                <div id="b-red"></div>
+                <div id="b-blue"></div>
+                <div id="b-green"></div>
+            </div>   
         </nav>
         <!--fim barra de navegaçao -->
     
@@ -128,7 +134,7 @@
             </aside>
             <!--fim da side bar-->
             <div class="conteiner">
-                <figure>
+                <figure class="img-main">
                     <img src="images/keep-it-simple-cookies.jpg" alt="Biscoitos com mensagem motivacional. Keep it simple">
                 </figure>
                 <figure class="audio-conteiner">
@@ -151,7 +157,7 @@
             <!-- AddToAny END -->
         <span>© Copyright by no one</span>
     </footer>
-
+    <script type="text/javascript" src="script-notas.js"></script>
 
 </body>
 </html>
