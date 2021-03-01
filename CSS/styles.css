@@ -10,7 +10,9 @@ body {
   letter-spacing: -.0027777778rem;
   font-size: 100%;
   line-height: 1.75;
-
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
 }
 .menu {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -39,6 +41,8 @@ main {
 
 .header-conteiner {
   display: flex;
+  background-color: beige;
+  border: ridge rgba(10, 98, 104, 0.219) 5px;
 }
 h1 {
   text-align: center;
@@ -46,5 +50,32 @@ h1 {
 }
 footer {
   padding: 2%;
-  
+}
+
+.img-main {
+  display: inline-block;
+}
+
+#b-red, #b-blue, #b-green {
+  width: 20px;
+  height: 20px;
+  display: inline-block; 
+}
+#b-red{
+  background-color: red;
+}
+#b-blue {
+  background-color: royalblue;
+}
+#b-green {
+  background-color: seagreen;
+}
+#b-red:hover {
+  background-color: rgb(212, 70, 70);
+}
+#b-green:hover {
+  background-color: rgb(83, 189, 129);
+}
+#b-blue:hover{
+  background-color: rgb(31, 70, 185);
 }
